@@ -1,23 +1,26 @@
 # linux账号
 
-## root账号
+## root
 
 ### 修改密码
 ```
 passwd root
 ```
 
-## work账号
+## work
 
-### 增加work账户
+### 增加
+
 ```
 useradd work
 passwd work
 ```
-### 给work账户分配sudu权限
+
+### 分配sudo权限
+
 ```
 vim /etc/sudoers
 
-;文件底部增加
+#文件底部增加
 work    ALL=(ALL)       NOPASSWD: ALL
 ```
