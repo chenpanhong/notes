@@ -1,0 +1,10 @@
+1、网络协议（TCP/IP、HTTP、HTTPS、HTTP2.0）
+2、编程（PHP、go、框架、设计模式、多线程编程）
+3、数据库与缓存（mysql、redis、memcache、mongodb、hbase）
+4、rpc（grpc、thrift）
+5、架构（微服务、分布式、扩展性、高可用、容灾）
+6、搜索引擎（sphinx、Lucene、elasticSearch）
+7、消息队列（rabbitMq、kafka）
+8、安全（XSS、CSRF、SQL注入、脚本注入、漏洞扫描工具、服务器安全）
+9、测试（AB测试、压力测试、单元测试、安全测试）
+10、容器技术（docker）
