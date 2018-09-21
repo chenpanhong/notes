@@ -1,8 +1,12 @@
 # 目录
 
-[小可爱](https://github.com/chenpanhong/work/blob/master/docs/small_lovely.md)
+## 小可爱积累
+- [小可爱](https://github.com/chenpanhong/work/blob/master/docs/small_lovely.md)
 
-[linux](https://github.com/chenpanhong/work/blob/master/docs/linux-init.md)
+## linux
+- [用户](https://github.com/chenpanhong/work/blob/master/linux/linux-init.md)
+- [Yum](https://github.com/chenpanhong/work/blob/master/linux/yum.md)
 
-[Git](https://github.com/chenpanhong/work/blob/master/docs/git.md)
+## Git
+- [git](https://github.com/chenpanhong/work/blob/master/git/git.md)
 
