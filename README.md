@@ -1,6 +1,6 @@
 # 目录
 
-## 小可爱积累
+## 常用命令
 - [小可爱](https://github.com/chenpanhong/work/blob/master/docs/small_lovely.md)
 
 ## linux
