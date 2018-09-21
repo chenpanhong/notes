@@ -5,7 +5,7 @@
 
 ## linux
 - [用户](https://github.com/chenpanhong/work/blob/master/linux/user.md)
-- [命令集](https://github.com/chenpanhong/work/blob/master/linux/commend.md)
+- [命令集](https://github.com/chenpanhong/work/blob/master/linux/command.md)
 - [Yum](https://github.com/chenpanhong/work/blob/master/linux/yum.md)
 
 ## Git
