@@ -1,5 +1,3 @@
-# 目录
-
 ## 技术topic
 - [topic](https://github.com/chenpanhong/work/blob/master/docs/topic.md)
 
