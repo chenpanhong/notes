@@ -4,13 +4,14 @@
 
 ### Tmux简介
 
-- 在服务端运行，强大的窗口管理和会话保持
-- 基于命令行，可定制多种插件
+在服务端运行，强大的窗口管理和会话保持； 基于命令行，可定制多种插件；
 
 
 ### 会话(session)、窗口(window)、窗格(panel)的概念
 
 >它们的从属关系：session -> window -> panel
+
+主要概念分为三个
 
 - session 默认开启tmux时，会建立一个session, 在这个会话中，会开启一个window, tmux可以创建多个session, 并且可随意切换
 - window 比session中一些，一个session管理多个window
@@ -39,8 +40,7 @@ set-option -g allow-rename off
 set-window-option -g mode-keys vi
 ```
 
-### Tmux常用命令
-#### Tmux Shell常用命令
+### Shell常用命令
 - tmux new -s foo               # 新建名称为 foo 的会话
 - tmux ls                       # 列出所有 tmux 会话
 - tmux a                        # 恢复至上一次的会话
@@ -48,8 +48,7 @@ set-window-option -g mode-keys vi
 - tmux kill-session -t foo      # 删除名称为 foo 的会话
 - tmux kill-server              # 删除所有的会话
 
-#### Tmux 会话内常用命令
-#### Panel窗格操作
+### Panel窗格操作
 - % 左右平分出两个窗格
 - " 上下平分出两个窗格
 - x 关闭当前窗格
@@ -61,7 +60,7 @@ set-window-option -g mode-keys vi
 - z 最大化当前窗格，再次执行可恢复原来大小
 - q 显示所有窗格的序号，在序号出现期间按下对应的数字，即可跳转至对应的窗格
 
-#### Window窗口操作
+### Window窗口操作
 - c 新建窗口，此时当前窗口会切换至新窗口，不影响原有窗口的状态
 - p 切换至上一窗口
 - n 切换至下一窗口
@@ -71,7 +70,7 @@ set-window-option -g mode-keys vi
 - 0 切换至 0 号窗口，使用其他数字 id 切换至对应窗口
 - f 根据窗口名搜索选择窗口，可模糊匹配
 
-#### Session会话操作
+### Session会话操作
 - $ 重命名当前会话
 - s 选择会话列表
 - d detach 当前会话，运行后将会退出 tmux 进程，返回至 shell 主进程
