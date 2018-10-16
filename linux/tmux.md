@@ -16,7 +16,7 @@
 - window 比session中一些，一个session管理多个window
 - panel 比window小一些，用户可对window进行随意的切割，切割出的块就叫panel
 
-![tmux-frame](./static/tmux-frame.svg)
+![tmux-frame](../static/tmux-frame.svg)
 
 #### Tmux配置
 - 默认bind-key 为 C-b
