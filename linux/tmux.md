@@ -5,8 +5,8 @@
 - 默认bind-key 为 C-b
 - 查看快捷键 C-b + ?
 - 加载配置文件(任选一种, 第二种不太好用)
- - tmux kill-server 重启所有tmux 进程
- - 在tmux 会话中使用⌃b : 进入控制台模式，输入 source-file ~/.tmux.conf 命令重新加载配置。
+    - tmux kill-server 重启所有tmux 进程
+    - 在tmux 会话中使用⌃b : 进入控制台模式，输入 source-file ~/.tmux.conf 命令重新加载配置。
 
 ```
 # 开启鼠标模式(特别不好用)
