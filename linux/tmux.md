@@ -2,11 +2,14 @@
 - tmux 是一款终端复用命令行工具，一般用于 Terminal 的窗口管理
 
 #### Tmux配置
-- 默认bind-key为C-b
+- 默认bind-key 为 C-b
 - 查看快捷键 C-b + ?
-- tmux kill-server 重启所有tmux 进程或者在tmux 会话中使用⌃b : 进入控制台模式，输入 source-file ~/.tmux.conf 命令重新加载配置。
+- 加载配置文件(任选一种, 第二种不太好用)
+ - tmux kill-server 重启所有tmux 进程
+ - 在tmux 会话中使用⌃b : 进入控制台模式，输入 source-file ~/.tmux.conf 命令重新加载配置。
+
 ```
-# 开启鼠标模式
+# 开启鼠标模式(特别不好用)
 set -g mode-mouse on
 
 # 允许鼠标选择窗格
