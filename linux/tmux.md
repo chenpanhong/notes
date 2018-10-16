@@ -6,7 +6,7 @@
 
 在服务端运行，强大的窗口管理和会话保持； 基于命令行，可定制多种插件；
 
-### 会话(session)、窗口(window)、窗格(panel)的概念
+#### 会话(session)、窗口(window)、窗格(panel)的概念
 
 >它们的从属关系：session -> window -> panel
 
