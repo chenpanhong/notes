@@ -1,25 +1,22 @@
 ### 前言
+
 日常的工作中，需要频繁的登陆堡垒机，登陆过程又比较复杂，tmux是我比较常用的终端工具，分享给大家使用
 
 ### Tmux简介
+
 - 在服务端运行，强大的窗口管理和会话保持
 - 基于命令行，可定制多种插件
 
 
 ### 会话(session)、窗口(window)、窗格(panel)的概念
+
+>它们的从属关系：session -> window -> panel
+
 - session 默认开启tmux时，会建立一个session, 在这个会话中，会开启一个window, tmux可以创建多个session, 并且可随意切换
 - window 比session中一些，一个session管理多个window
 - panel 比window小一些，用户可对window进行随意的切割，切割出的块就叫panel
-它们的从属关系：session -> window -> panel
 
-![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
-
-
-
-
-
-
-
+![tmux-frame](./static/tmux-frame.svg)
 
 #### Tmux配置
 - 默认bind-key 为 C-b

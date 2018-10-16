@@ -6,12 +6,12 @@
 - [开发机初始化，用户相关](./linux/user.md)
 - [神奇的命令](./linux/command.md)
 
-## 工具篇
-- [扫盲篇之Yum](./linux/yum.md)
-- [终端管理神器-Tmux](./linux/tmux.md)
-
 ## Git
 - [神奇的命令](./git/git.md)
 
 ## PHP
 - [神奇的PHP语法及应用](./php/small_lovely.md)
+
+## 工具篇
+- [扫盲篇-Yum](./linux/yum.md)
+- [终端管理神器-Tmux](./linux/tmux.md)
