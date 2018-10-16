@@ -31,14 +31,9 @@ yum install tmux
 
 #### Tmux简单配置
 
-tmux的各种操作，都需要一个`<leader>`, 只有先按下`<leader>`后，各种快捷命令才会生效, 默认的组合键为`C-b`(ctrl+b).
+tmux的conf大致分为两个方面, 1. 配置各种快捷键映射，方便操作 2. 修改系统提供的优化配置
 
-tmux的配置大致分为:
-
-- 配置各种快捷键映射，方便操作
-- 修改系统提供的优化配置
-
-tmux的配置文件为.tmux.conf，需要放置在当前登陆用户的家目录下:
+tmux的配置文件为.tmux.conf，需要放置在当前登陆用户的家目录下, 更新方式如下:
 
 - tmux kill-server 关闭tmux，重新进入
 - 在会话中，`<leader>`: 进入命令模式，输入source-file ~/.tmux.conf，此方式，只是增量的执行配置文件中的命令
@@ -59,7 +54,12 @@ set-option -g allow-rename off
 set-window-option -g mode-keys vi
 ```
 
-### Shell常用命令
+### 常用快捷键
+
+tmux的各种操作，都需要一个`<leader>`, 只有先按下`<leader>`后，各种快捷命令才会生效, 默认的组合键为`C-b` (ctrl+b).
+
+#### Shell常用命令
+
 - `tmux new -s foo`               # 新建名称为 foo 的会话
 - `tmux ls`                       # 列出所有 tmux 会话
 - `tmux a`                        # 恢复至上一次的会话
@@ -67,15 +67,18 @@ set-window-option -g mode-keys vi
 - `tmux kill-session -t foo`      # 删除名称为 foo 的会话
 - `tmux kill-server`              # 删除所有的会话
 
-### 基础操作(leader)
+#### 基础操作(leader)
+
 - `?` 列出所有的快捷键
 
-### Session会话操作(leader)
+#### Session会话操作(leader)
+
 - `$` 重命名当前会话
 - `s` 选择会话列表
 - `d` detach 当前会话，运行后将会退出 tmux 进程，返回至 shell 主进程
 
-### Window窗口操作(leader)
+#### Window窗口操作(leader)
+
 - `c` 新建窗口，此时当前窗口会切换至新窗口，不影响原有窗口的状态
 - `p` 切换至上一窗口
 - `n` 切换至下一窗口
@@ -85,7 +88,8 @@ set-window-option -g mode-keys vi
 - `0` 切换至 0 号窗口，使用其他数字 id 切换至对应窗口
 - `f` 根据窗口名搜索选择窗口，可模糊匹配
 
-### Panel窗格操作(leader)
+#### Panel窗格操作(leader)
+
 - `%` 左右平分出两个窗格
 - `"` 上下平分出两个窗格
 - `x` 关闭当前窗格
