@@ -8,6 +8,7 @@
 - [用户](https://github.com/chenpanhong/work/blob/master/linux/user.md)
 - [命令集](https://github.com/chenpanhong/work/blob/master/linux/command.md)
 - [Yum](https://github.com/chenpanhong/work/blob/master/linux/yum.md)
+- [Tmux](https://github.com/chenpanhong/work/blob/master/linux/tmux.md)
 
 ## Git
 - [git](https://github.com/chenpanhong/work/blob/master/git/git.md)
