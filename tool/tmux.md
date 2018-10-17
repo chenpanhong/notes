@@ -16,7 +16,7 @@
 - window 一个session可管理多个window
 - panel 用户可对window进行随意的切割，切割出的块就叫panel
 
-![tmux-frame](../static/tmux-frame.svg)
+![tmux-frame](../static/img/tmux-frame.svg)
 
 
 ### Tmux安装
