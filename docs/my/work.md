@@ -1,16 +1,16 @@
-## 创建工作账号 & 增加sudo权限
-1.修改root账号密码
+### 创建工作账号 & 增加sudo权限
+1. 修改root账号密码
 ```
 passwd root
 ```
 
-2.创建work账号 & 分配密码
+2. 创建work账号 & 分配密码
 ```
 useradd work
 passwd work
 ```
 
-3.为work账号分配sudo权限
+3. work账号分配sudo权限
 ```
 vim /etc/sudoers
 
@@ -18,8 +18,8 @@ vim /etc/sudoers
 work    ALL=(ALL)       NOPASSWD: ALL
 ```
 
-## bashrc配置
+### bashrc配置
 
-## vimrc配置
+### vimrc配置
 
-## 常用工具安装 & 配置
+### 常用工具安装 & 配置
