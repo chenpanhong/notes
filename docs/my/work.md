@@ -20,7 +20,34 @@ work    ALL=(ALL)       NOPASSWD: ALL
 
 4. 修改hostname
 ```
-sudo hostname xxx
+sudo hostname chenpanhong
+```
+
+5. ssh-copy-id
+```
+work@chenpanhong:~$ vim .ssh/config
+Host sa
+HostName 10.26.27.56
+User work
+
+work@chenpanhong:~$ chown $USER ~/.ssh/config
+work@chenpanhong:~$ chmod 644 ~/.ssh/config
+work@chenpanhong:~$ ssh-copy-id work@sa
+```
+### git配置
+```
+~/.gitconfig
+[user]
+    name = chenpanhong
+    email = chenpanhong@lianjia.com
+[color]
+    ui = true
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+[core]
+    editor = vim
 ```
 
 ### bashrc配置
@@ -134,12 +161,32 @@ filetype plugin indent on    " required
 """""""""""""""""""""基础配置结束"""""""""""""""""""""
 ```
 
-### 常用工具安装 & 配置
-1. 命令自动补全bash_completion
+### tmux配置
+```
+# 允许鼠标选择窗格
+set -g mouse-select-pane on
 
-2. 自定义目录小工具cdthis
+# 如果喜欢给窗口自定义命名，那么需要关闭窗口的自动命名
+set-option -g allow-rename off
+
+# 如果对 vim 比较熟悉，可以将 copy mode 的快捷键换成 vi 模式
+set-window-option -g mode-keys vi
+```
+
+### 常用工具安装 & 配置
+1. 命令自动补全bash_completion http://blog.fpliu.com/it/software/bash-completion
+```
+sudo yum install bash-completion
+```
+
+2. 自定义目录小工具cdthis https://github.com/pandaoknight/cdthis
 
 3. Vim插件管理Vundle安装 https://github.com/VundleVim/Vundle.vim
+
+4. Git命令行图形化工具Tig
+```
+sudo yum install tig
+```
 
 ### 常用自定义小命令
 1. 启动swagger服务
