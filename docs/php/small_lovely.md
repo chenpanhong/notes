@@ -16,3 +16,5 @@ Output:
 ```
 1,2,3,4
 ```
+
+## fastcgi_finish_request — 冲刷(flush)所有响应的数据给客户端
