@@ -25,3 +25,6 @@ zgrep 'dc/cust/base/plist' /data0/www/logs/archives/190105/190105.i.research-cor
 
 1. 客户端超时时间是多少, 服务端超时时间，大于客户端，就会499
 2. 用户按了强制刷新
+
+### 单台机器QPS
+cat i.research-core.api.lianjia.com-access_log | awk -F '[' '{print $2}' | awk '{print $1}' | sort | uniq -c |sort -k1,1nr | head -n 10
