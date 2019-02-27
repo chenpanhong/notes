@@ -28,3 +28,9 @@ zgrep 'dc/cust/base/plist' /data0/www/logs/archives/190105/190105.i.research-cor
 
 ### 单台机器QPS
 cat i.research-core.api.lianjia.com-access_log | awk -F '[' '{print $2}' | awk '{print $1}' | sort | uniq -c |sort -k1,1nr | head -n 10
+
+### 端口转发
+```
+//demo
+nohup socat -T 600 UDP4-LISTEN:10000,reuseaddr,fork UDP4:1.1.1.1:10000 >> socat.log 2>&1 &
+```
