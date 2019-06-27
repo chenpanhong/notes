@@ -1,7 +1,0 @@
-#!/bin/bash
-if [ $1 ] && [ $2 ] && [ $3 ];then 
-    grep -rl "$2" $1 | xargs sed -i "s/$2/$3/g"
-    echo "replace success!!!"
-else
-    echo "params is empty!!!"
-fi
