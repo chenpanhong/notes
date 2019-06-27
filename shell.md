@@ -1,6 +1,4 @@
-# 不太常见的命令
-
-### mkdir {}
+## mkdir {}
 ```
 work@ke:demo$ mkdir -p a/b/{aa,bb}
 work@ke:demo$ tree
@@ -10,4 +8,5 @@ work@ke:demo$ tree
             |-- aa
             `-- bb
 ```
+
 
