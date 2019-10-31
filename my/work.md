@@ -51,13 +51,13 @@ work@chenpanhong:~$ ssh-copy-id work@sa
 ```
 
 ### BASHRC配置
-- GOTO [.bashrc](./bash.md)
+goto [.bashrc](./bash.md)
 
 ### VIMRC配置
-- GOTO [.vimrc](./vim.md)
+goto [.vimrc](./vim.md)
 
 ### TMUX配置
-- GOTO [tmux教程](../tool/tmux.md)
+goto [tmux教程](../tool/tmux.md)
 ```
 vim ~/.tmux.conf 
 # 允许鼠标选择窗格
