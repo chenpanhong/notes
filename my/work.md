@@ -34,7 +34,7 @@ work@chenpanhong:~$ chown $USER ~/.ssh/config
 work@chenpanhong:~$ chmod 644 ~/.ssh/config
 work@chenpanhong:~$ ssh-copy-id work@sa
 ```
-### git配置
+### GIT配置
 ```
 ~/.gitconfig
 [user]
@@ -50,11 +50,11 @@ work@chenpanhong:~$ ssh-copy-id work@sa
     editor = vim
 ```
 
-### bashrc配置
-[我的常用配置，不定时更新~](./bash.md)
+### BASHRC配置
+- GOTO [.bashrc](./bash.md)
 
-### vimrc配置
-[我的常用配置，不定时更新~](./vim.md)
+### VIMRC配置
+- GOTO [.vimrc](./vim.md)
 
-### tmux配置
-[我的常用配置，不定时更新~](./tmux.md)
+### TMUX配置
+- GOTO [.tmux.conf](./tmux.md)
