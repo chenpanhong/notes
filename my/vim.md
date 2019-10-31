@@ -75,7 +75,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'bronson/vim-trailing-whitespace'
 
 "语法检测
-Plug 'vim-syntastic/syntastic'
+Plug 'vim-scripts/syntastic'
 
 "用来提供一个导航目录的侧边栏
 Plug 'scrooloose/nerdtree'
@@ -156,7 +156,7 @@ let g:NERDTreeShowIgnoredStatus = 1
 "Syntastic的配置
 "==============================================================================
 let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1  "开启配置时，有莫名乱码，没有找到原因<?php1;95;0c
+let g:syntastic_check_on_open = 1
 
 "==============================================================================
 "DoxygenToolkit的配置
