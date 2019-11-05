@@ -34,7 +34,7 @@ work@chenpanhong:~$ chown $USER ~/.ssh/config
 work@chenpanhong:~$ chmod 644 ~/.ssh/config
 work@chenpanhong:~$ ssh-copy-id work@sa
 ```
-### git配置
+### GIT配置
 ```
 ~/.gitconfig
 [user]
@@ -50,11 +50,22 @@ work@chenpanhong:~$ ssh-copy-id work@sa
     editor = vim
 ```
 
-### bashrc配置
-[我的常用配置，不定时更新~](./bash.md)
+### BASHRC配置
+goto [.bashrc](./bash.md)
 
-### vimrc配置
-[我的常用配置，不定时更新~](./vim.md)
+### VIMRC配置
+goto [.vimrc](./vim.md)
 
-### tmux配置
-[我的常用配置，不定时更新~](./tmux.md)
+### TMUX配置
+goto [tmux教程](../tool/tmux.md)
+```
+vim ~/.tmux.conf 
+# 允许鼠标选择窗格
+set -g mouse-select-pane on
+
+# 如果喜欢给窗口自定义命名，那么需要关闭窗口的自动命名
+set-option -g allow-rename off 
+
+# 如果对 vim 比较熟悉，可以将 copy mode 的快捷键换成 vi 模式
+set-window-option -g mode-keys vi
+```
