@@ -8,6 +8,13 @@
 ## 架构篇
 
 ## Linux篇
+
+### IPC进程间通信
+#### 管道
+#### 共享内存
+#### 信号量
+#### socket
+
 ### I/O模型
 > https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/BIO-NIO-AIO.md
 
